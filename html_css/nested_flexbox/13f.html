@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    .main-div {
+      display: flex;
+      flex-direction: column;
+    }
+    .upper-div{
+      display: flex;
+    }
+    img {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 25px;
+    }
+    .picture {
+      margin-left: 20px;
+      margin-top: 5px;
+    }
+    .text {
+      margin-left: 10px;
+      margin-top: 5px;
+    }
+    .http {
+      font-family: Arial,serif;
+      font-weight: bold;
+    }
+    .email {
+      font-weight: normal;
+      color: lightslategray;
+    }
+    .content {
+      width: 350px;
+      font-family: Arial, serif;
+      margin-top: 5px;
+    }
+    .video-preview {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(200, 200, 200);
+      border-radius: 15px;
+      overflow: hidden;
+      width: 350px;
+      margin-left: 75px;
+      margin-top: 10px;
+    }
+
+    .thumbnail-column {
+      width: 100px;
+      height: 100px;
+      background-color: rgb(220, 220, 220);
+      margin-right: 10px;
+    }
+
+    .video-info-column {
+      flex: 1;
+    }
+
+    .video-website {
+      color: rgb(111, 111, 111);
+      margin-bottom: 3px;
+    }
+
+    .video-title {
+      line-height: 22px;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="main-div">
+    <div class="upper-div">
+      <div class="picture">
+        <img src="/images_searchbox/cat.jpg" alt="">
+      </div>
+      <div class="text">
+        <div class="http">supersimple.dev <span class="email">@SuperSimpleDev</span></div>
+        <div class="content"> What is backend web development? A complete overview. New video is up!</div>
+      </div>
+    </div>
+    <div class="video-preview">
+      <div class="thumbnail-column"></div>
+      <div class="video-info-column">
+        <div class="video-website">youtube.com</div>
+        <div class="video-title">
+          Backend web development - a complete overview (2021)
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

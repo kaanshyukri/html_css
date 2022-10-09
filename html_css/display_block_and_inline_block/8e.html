@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Uber request</title>
+  <style>
+    p {
+      font-weight: bold;
+      font-family: Tahoma, serif;
+    }
+    input {
+      display: block;
+      margin-bottom: 4px;
+      border: none;
+      background: lightgray;
+      font-size: 10px;
+      padding: 5px 50px 5px 7px;
+      border-radius: 4px;
+    }
+    .destination {
+      margin-bottom: 20px;
+    }
+    .request {
+      color: white;
+      background: black;
+      border: none;
+      font-size: 8px;
+      padding: 8px 15px;
+    }
+  </style>
+</head>
+<body>
+  <p>Request a ride now</p>
+  <label>
+    <input type="text" placeholder="Enter pickup location">
+  </label>
+  <label>
+    <input class="destination" type="text" placeholder="Enter destination">
+  </label>
+  <button class="request">Request now</button>
+  <button class="schedule">Schedule for later</button>
+</body>
+</html>
